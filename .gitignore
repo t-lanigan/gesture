@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS system files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# MediaPipe cache
+mediapipe_cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Environment variables and secrets
+.env
+*.key
+*.pem
