@@ -28,6 +28,10 @@ down:
 clean:
 	docker system prune -f
 
+# Gets the task for gesture recognition
+download:
+	wget -q https://storage.googleapis.com/mediapipe-models/gesture_recognizer/gesture_recognizer/float16/1/gesture_recognizer.task
+
 # Stop and remove the container manually
 stop:
 	docker stop $(CONTAINER_NAME)

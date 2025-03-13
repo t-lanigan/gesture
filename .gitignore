@@ -33,6 +33,9 @@ mediapipe_cache/
 .idea/
 *.iml
 
+#Tasks
+*.task
+
 # Environment variables and secrets
 .env
 *.key
