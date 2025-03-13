@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy necessary files
 COPY requirements.txt ./
-COPY config.py ./
+COPY ./config ./
 COPY main.py ./
 COPY controllers/ controllers/
 COPY gestures/ gestures/
