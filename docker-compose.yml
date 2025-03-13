@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gesture-control:
+    build: .
+    container_name: gesture_control
+    restart: unless-stopped
+    environment:
+      - HUE_BRIDGE_IP=${HUE_BRIDGE_IP}
+    devices:
+      - "/dev/video0:/dev/video0"  # Enables webcam access inside Docker
+    privileged: true
