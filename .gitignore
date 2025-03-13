@@ -25,7 +25,7 @@ dist/
 build/
 *.whl
 
-# MediaPipe cache
+# MediaPipe cache.
 mediapipe_cache/
 
 # IDE and editor files
