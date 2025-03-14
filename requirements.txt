@@ -1,5 +1,5 @@
 opencv-python==4.8.1.78
 mediapipe==0.10.21
 phue==1.1
-pybluez2==0.46  # If using classic Bluetooth
+pybluez2==0.46  # If using classic Bluetooth (only supported until python3.9)
 # bleak==0.22.1  # Uncomment if using BLE instead of pybluez

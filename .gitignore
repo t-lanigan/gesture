@@ -34,9 +34,11 @@ mediapipe_cache/
 *.iml
 
 #Tasks
-*.task
+*.task*
 
 # Environment variables and secrets
 .env
 *.key
 *.pem
+
+*.jpg

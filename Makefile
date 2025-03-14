@@ -4,11 +4,11 @@ CONTAINER_NAME=gesture-container
 
 # Install the dependancies
 deps:
-	pip3 install -r requirements.txt
+	pip install -r requirements.txt
 
 # Run the project locally
 run-local:
-	python3 main.py
+	python main.py
 
 # Build and run the project in Docker
 build:
